@@ -55,6 +55,9 @@ article>.row:focus{
         justify-content: center;
         align-items: center;
 }
+main{
+        margin: 0 20px;
+}
 .imgbox{
         margin: 10px;
         width: 100px;
@@ -68,16 +71,20 @@ article>.row:focus{
         height: 100%;
         object-fit: cover;
 }
-
+.form-radio>input{
+        margin: 10px;
+}
+.form_Donete_food>p,
+.form_Request_food>p{
+        color: brown;
+}
 footer{
         /* position: fixed;
         bottom: 0; */
         display: flex;
         align-items: center;
         justify-content: center;
-}
-main{
-        margin: 0 20px;
+        font-size: small;
 }
 @media (min-width:360px){
         .card{
